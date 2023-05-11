@@ -1,0 +1,183 @@
+[
+    {
+      "score": 0.6494496,
+      "show": {
+        "id": 60856,
+        "url": "https://www.tvmaze.com/shows/60856/the-mahabharata",
+        "name": "The Mahabharata",
+        "type": "Scripted",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "1990-03-10",
+        "ended": "1990-03-24",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": 5
+        },
+        "weight": 0,
+        "network": {
+          "id": 269,
+          "name": "Star Plus",
+          "country": {
+            "name": "India",
+            "code": "IN",
+            "timezone": "Asia/Kolkata"
+          },
+          "officialSite": null
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 213551,
+          "imdb": "tt0097810"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/398/996547.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/398/996547.jpg"
+        },
+        "summary": "<p>The story of the throne of Hastinapura, the kingdom ruled by the Kuru clan. The two collateral branches of the family that participate in the struggle of the throne of Hastinapura are the Kaurava and the Pandava. Although the Kaurava is the senior branch of the family, Duryodhana, the eldest Kaurava, is younger than Yudhisthira, the eldest Pandava. Both Duryodhana and Yudhisthira claim to be first in line to inherit the throne. The struggle culminates in the great battle of Kurukshetra, in which the Pandavas are ultimately victorious. The battle produces complex conflicts of kinship and friendship, instances of family loyalty and duty taking precedence over what is right, as well as the converse.</p>",
+        "updated": 1646508699,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/60856"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2289706"
+          }
+        }
+      }
+    },
+    {
+      "score": 0.5061876,
+      "show": {
+        "id": 5016,
+        "url": "https://www.tvmaze.com/shows/5016/mahabharat",
+        "name": "Mahabharat",
+        "type": "Scripted",
+        "language": "Hindi",
+        "genres": [
+          "Drama",
+          "History"
+        ],
+        "status": "Ended",
+        "runtime": 20,
+        "averageRuntime": 20,
+        "premiered": "2013-09-16",
+        "ended": "2014-08-16",
+        "officialSite": "http://www.hotstar.com/#!/mahabharat-435-s",
+        "schedule": {
+          "time": "20:30",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ]
+        },
+        "rating": {
+          "average": 4
+        },
+        "weight": 47,
+        "network": {
+          "id": 269,
+          "name": "Star Plus",
+          "country": {
+            "name": "India",
+            "code": "IN",
+            "timezone": "Asia/Kolkata"
+          }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": 46350,
+          "thetvdb": 273350,
+          "imdb": "tt3212600"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/21/54241.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/21/54241.jpg"
+        },
+        "summary": "<p>The story of the throne of Hastinapura, the kingdom ruled by the Kuru clan. The two collateral branches of the family that participate in the struggle of the throne of Hastinapura are the Kaurava and the Pandava. Although the Kaurava is the senior branch of the family, Duryodhana, the eldest Kaurava, is younger than Yudhisthira, the eldest Pandava. Both Duryodhana and Yudhisthira claim to be first in line to inherit the throne. The struggle culminates in the great battle of Kurukshetra, in which the Pandavas are ultimately victorious. The battle produces complex conflicts of kinship and friendship, instances of family loyalty and duty taking precedence over what is right, as well as the converse.</p>",
+        "updated": 1604823863,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/5016"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/314287"
+          }
+        }
+      }
+    },
+    {
+      "score": 0.42338097,
+      "show": {
+        "id": 16607,
+        "url": "https://www.tvmaze.com/shows/16607/mahabharat",
+        "name": "Mahabharat",
+        "type": "Scripted",
+        "language": "Hindi",
+        "genres": [
+          "Drama"
+        ],
+        "status": "Ended",
+        "runtime": 45,
+        "averageRuntime": 45,
+        "premiered": "1988-10-02",
+        "ended": "1990-07-15",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": [
+            "Sunday"
+          ]
+        },
+        "rating": {
+          "average": 4.5
+        },
+        "weight": 17,
+        "network": {
+          "id": 1093,
+          "name": "DD National",
+          "country": {
+            "name": "India",
+            "code": "IN",
+            "timezone": "Asia/Kolkata"
+          }
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 84349,
+          "imdb": "tt0158417"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/55/138442.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/55/138442.jpg"
+        },
+        "summary": "<p><b>Mahabharat</b> is a successful Indian television series based on the ancient Indian epic Mahabharata. The 94-episode series originally ran from 1988 to 1990. It was produced by B. R. Chopra and directed by his son, Ravi Chopra.</p>",
+        "updated": 1573325769,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/16607"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/762035"
+          }
+        }
+      }
+    }
+  ]
