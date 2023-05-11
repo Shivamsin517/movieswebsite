@@ -51,7 +51,7 @@ const MoviesSummary = () => {
               
 
             
-            <br/>
+           
             <p>
            
             <div className="content" dangerouslySetInnerHTML={{__html: filterdMoviedetail[0].show?.summary}}></div>
