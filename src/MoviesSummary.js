@@ -1,14 +1,15 @@
 // ItemDetails.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Nav from './Nav';
 import { useParams } from 'react-router';
-import movie from "../src/data.json";
+//import movie from "../src/data.json";
 
 const MoviesSummary = () => {
-
+  const [movie, setPosts] = useState([]);
   let { id } = useParams();
-
-  /*useEffect(() => {
+  const API_URL ='https://api.tvmaze.com/search/shows?q=all';
+  
+  useEffect(() => {
     fetch(API_URL)
       .then(response => {
         if (!response.ok) {
@@ -17,35 +18,33 @@ const MoviesSummary = () => {
         return response.json();
       })
       .then(json => {
-        setPosts(json);
+        setPosts(json.filter(x => x.show.id == id));
         console.log(json)
       })
       .catch(error => {
         console.error('Error fetching data:', error);
       });
   }, []);
-  */
-   
-  let filterdMoviedetail =[]
-   filterdMoviedetail = movie.filter(x => x.show.id == id)
+  
+
   
   return (
     
     <div className="container">
         <Nav/>
       <h1>Movie Summary</h1>
-      <p>Displaying details for item with ID: {filterdMoviedetail[0].show?.id} </p>
+      <p>Displaying details for item with ID: {movie[0]?.show?.id} </p>
        
      
             <div class="col col-lg-6">
-              <img src={filterdMoviedetail[0].show?.image?.medium} ></img>
+              <img src={movie[0]?.show?.image?.medium} ></img>
             </div>
             <br/>
             
               <ul>
-              <li>anguage : {filterdMoviedetail[0].show?.language} </li>
-              <li> rating: {filterdMoviedetail[0].show?.rating.average} </li>
-              <li> weight: {filterdMoviedetail[0].show?.weight} </li>
+              <li>anguage : {movie[0]?.show?.language} </li>
+              <li> rating: {movie[0]?.show?.rating.average} </li>
+              <li> weight: {movie[0]?.show?.weight} </li>
              
               </ul>
               
@@ -54,7 +53,7 @@ const MoviesSummary = () => {
            
             <p>
            
-            <div className="content" dangerouslySetInnerHTML={{__html: filterdMoviedetail[0].show?.summary}}></div>
+            <div className="content" dangerouslySetInnerHTML={{__html: movie[0]?.show?.summary}}></div>
             </p>
             <button type="button" class="btn btn-primary">Book ticket</button>
            
